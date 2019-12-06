@@ -3,7 +3,7 @@
 [Eazy Trckr](https://flamboyant-booth-276308.netlify.com/) is the sexiest weight tracking app you'll see.
 ## Preview
 
-![Eazy preview](https://i.ibb.co/gdHSXfD/Screenshot-2019-12-06-15-45-29-69.png)
+![Eazy preview](https://i.ibb.co/w73SbPK/Screenshot-2019-12-06-15-45-29-69.png)
 
 **[View Live Preview](https://flamboyant-booth-276308.netlify.com/)**
 
@@ -14,3 +14,5 @@
 [![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-bare.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-bare)
 [![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-bare/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-bare)
 [![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-bare/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-bare?type=dev)
+
+
