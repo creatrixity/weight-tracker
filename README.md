@@ -1,4 +1,4 @@
-# [Start Bootstrap - Bare](https://startbootstrap.com/template-overviews/bare/)
+# Eazy Trckr
 
 [Eazy Trckr](https://flamboyant-booth-276308.netlify.com/) is the sexiest weight tracking app you'll see.
 ## Preview
