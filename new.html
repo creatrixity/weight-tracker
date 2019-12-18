@@ -26,7 +26,7 @@
 
   <body class="bg-dark text-light">
     <!-- Page Content -->
-    <div class="container">
+    <form class="container" id="new-entry-form" method="post">
       <section class="row">
         <div class="col-lg-12">
           <section class="d-flex mt-4 mb-3 align-items-center">
@@ -127,38 +127,37 @@
           </div>
           <!-- #calendar -->
 
-          <div
-            class="mt-5 text-center d-flex align-items-center justify-content-center"
+          <section
+            class="text-center d-flex align-items-center justify-content-center weight-input-container"
           >
             <div class="input-wrapper">
               <input
                 class="input"
-                placeholder="Please Enter Weight"
                 value="62.5"
-                type="text"
+                type="number"
+                id="entry_input"
+                required
               />
               <span class="underline"></span>
             </div>
-          </div>
+          </section>
         </div>
+        <!-- Footer CTA -->
+        <section class="fixed-bottom bottom-cta mt-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 text-center">
+                <button class="btn btn-brand btn-prominent" type="submit">
+                  <i class="fa fa-save"></i> Save
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
       </section>
-    </div>
+    </form>
 
-    <!-- Footer CTA -->
-    <section class="fixed-bottom bottom-cta">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <a class="btn btn-brand btn-prominent" href="/new">
-              <i class="fa fa-save"></i> Save
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.slim.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Eazy Trckr core JavaScript -->
+    <script src="js/eazy-trckr.js"></script>
   </body>
 </html>

@@ -30,11 +30,15 @@
 }
 
 .btn-prominent {
-  padding: 0.8em 6.5em;
+  padding: 0.8em 2.5em;
 }
 
 .flex-grow-1 {
   flex-grow: 1;
+}
+
+.history-list {
+  padding-bottom: 4em;
 }
 
 .history-listing {
@@ -152,12 +156,13 @@
 }
 
 .day-active {
+  position: relative;
   font-weight: bold;
 }
 .day-active:before {
   content: '';
-  top: 3px;
-  right: 11px;
+  top: -4px;
+  right: -7px;
   position: absolute;
   background: var(--primary);
   width: 25px;
@@ -175,6 +180,10 @@
   color: #fff;
 }
 
+.weight-input-container {
+  padding: 3em 0 6em;
+}
+
 .input-wrapper {
   border-radius: 2px;
   position: relative;
@@ -188,7 +197,6 @@
   color: #fff;
   box-sizing: border-box;
   font-size: 4em;
-  margin: -25px 0 0 -100px;
   padding: 10px 0px;
   position: relative;
   width: 100%;
@@ -203,10 +211,10 @@
 
 input::-webkit-input-placeholder {
   color: #aaa;
+  font-size: 1em !important;
 }
 
 input:focus::-webkit-input-placeholder {
-  color: dodgerblue;
 }
 
 .input:focus + .underline {
@@ -214,7 +222,6 @@ input:focus::-webkit-input-placeholder {
 }
 
 .underline {
-  background-color: dodgerblue;
   display: inline-block;
   height: 2px;
   left: -36px;
